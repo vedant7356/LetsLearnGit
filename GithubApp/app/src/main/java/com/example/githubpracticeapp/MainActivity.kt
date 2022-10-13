@@ -11,8 +11,11 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
 import com.example.githubpracticeapp.databinding.ActivityMainBinding
+import kotlin.properties.Delegates
 
 class MainActivity : AppCompatActivity() {
+
+    lateinit var ved:String
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
